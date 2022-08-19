@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navber{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navber img{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+}
+.navber>h1{
+    position: absolute;
+    left: 130px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navber ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+.navber ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: rgb(210, 17, 17);
+    text-decoration: underline;
+}
+.login-btn>a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+    margin-right: 60px;
+    padding: 9px 25px;
+    border-radius: 15px;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+.login-btn:hover{
+    background-color: rgb(157, 10, 10);
+    color: white;
+}
+.login-btn a:hover{
+    color: white;
+}
+.background-img{
+    width: 100%;
+    height: 650px;
+    background: url(photo-1554473675-d0904f3cbf38.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.campus-hed{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: 200px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.campus-pera{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    height: auto;
+    margin: 100px 0px 0px 180px;
+    font-weight: bolder;
+    padding: 10px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0);
+}
+.visit-btn{
+    background: none;
+    position: relative;
+    left: 530px;
+    top: 450px;
+    padding: 20px 60px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.visit-btn:hover{
+    background-color: rgb(253, 9, 9);
+    color: rgb(0, 0, 0);
+}
+.offer{
+    text-align: center;
+    margin-top: 100px;
+}
+.offer h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offer p{
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.offer-card{
+    margin: 70px auto;
+    width: 80% ;
+    height: auto;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+}
+.intermediate{
+    display: inline;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.degree{
+    display: inline;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.Post-Graduation{
+    display: inline;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.global-campus{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.global-campus1 img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    transition: all .3s ;
+}
+.global-campus2 img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    transition: all .3s ;
+}
+.global-campus3 img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    transition: all .3s ;
+}
+.london{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.london .london-in{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -70px;
+    color: rgb(0, 0, 0);
+    /* display:none; */
+}
+.global-campus1 img:hover{
+    width: 300px;
+    height:400px;
+    margin-top: -25px;
+}
+.global-campus2 img:hover{
+    width: 300px;
+    height:400px;
+    margin-top: -25px;
+}
+.global-campus3 img:hover{
+    width: 300px;
+    height:400px;
+    margin-top: -25px;
+}
+.facilitis-img{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 50px;
+}
+.facilitis-img1 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.facilitis-img1 p{
+    width: 300px;
+    font-weight: bold;
+    text-align: justify; 
+}
+.student-say{
+    display: flex;
+    justify-content: center;
+    gap: 5.2rem;
+    margin: 80px 0px 200px 0px;
+}
+.card-12{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.img-eva{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: inline-flex;
+    overflow: hidden;
+}
+.card-12 p{
+    width: 70%;
+    position: relative;
+    top: -53px;
+    left: 100px;
+    font-weight: bold;
+    text-align: justify;
+}
+.card-12 h1{
+    width: 70%;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+.font-icon{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.fa-star{
+    color: #FF9529;
+}
+.fa-star-half-stroke{
+    color: #FF9529;
+}
+.enrol-section{
+    background: url(./large.jpg);
+    object-fit: cover;
+    object-position: center;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.enrol-section h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-top: 30px;
+}
+.enrol-section button{
+    background: none;
+    position: relative;
+    top: 150px;
+    left: 45%;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    transition: all .3s;
+}
+.enrol-section button:hover{
+    color: black;
+    background-color: red;
+}
+hr{
+    margin: 50px 0px 30px 0px;
+}
+footer{
+    position: relative;
+    width:100%;
+    height: 220px;
+    background-color: rgb(216, 216, 216);
+    gap: 1rem;
+}
+.footer-head h3{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 135px;
+}
+.footer-head ul{
+    list-style-type: disc;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.fa-facebook{
+    display: inline;
+    position: absolute;
+    top: 155px;
+    right: 550px;
+    color: #3b5998;
+}
+.fa-instagram{
+    display: inline;
+    position: absolute;
+    top: 155px;
+    right: 500px;
+    color: #dd2a7b;
+}
+.fa-twitter{
+    display: inline;
+    position: absolute;
+    top: 155px;
+    right: 450px;
+    color: #00acee;
+}
+.fa-linkedin{
+    display: inline;
+    position: absolute;
+    top: 155px;
+    right: 400px;
+    color: #0e76a8;
+}
+.fa-whatsapp{
+    display: inline;
+    position: absolute;
+    top: 155px;
+    right: 350px;
+    color: #25d366;
+}
+.footer-icon a i{
+    transition: all.3s;
+}
+.footer-icon a i:hover{
+    transform: scale(1.5);
+}
+.fa-at{
+    display: inline;
+    position: absolute;
+    top: 40px;
+    right: 550px;
+    color: black;
+}
+.contact-mit p{
+    display: inline;
+    position: absolute;
+    top: 35px;
+    right: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-earth-europe{
+    display: inline;
+    position: absolute;
+    top: 75px;
+    right: 550px;
+    color: black;
+}
+.pera{
+    display: inline;
+    position: absolute;
+    top: 70px;
+    right: 370px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-phone{
+    display: inline;
+    position: absolute;
+    top: 105px;
+    right: 550px;
+    color: black;
+}
+.pera-1{
+    display: inline;
+    position: absolute;
+    top: 105px;
+    right: 390px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

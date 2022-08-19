@@ -1,0 +1,358 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media(max-width:600.98px){
+    .navber{
+        height: 45px;
+        width: 100%;
+        background-color: rgb(218, 218, 218);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navber img{
+        height: 45px;
+        width: 45px;
+        margin-left: 0px;
+    }
+    .navber h1{
+        display:  none;
+    }
+    .navber ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 35px 5px 0px 22px;
+    }
+    .navber ul li a{
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+        font-weight:normal;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    ul li a:hover{
+        color: rgb(210, 17, 17);
+        text-decoration: underline;
+    }
+    .li-no{
+        display: none;
+    }
+    .login-btn>a{
+        text-decoration: none;
+        color: black;
+    }
+    .login-btn{
+        margin-right: 0px;
+        padding: 5px 16px;
+        border-radius: 5px;
+        background-color: red;
+        font-weight: normal;
+        cursor: pointer;
+        transition: all .3s;
+    
+    }
+    .login-btn:hover{
+        background-color: rgb(157, 10, 10);
+        color: white;
+    }
+    .login-btn a:hover{
+        color: white;
+    }
+    .background-img{
+        width: 100%;
+        height: 650px;
+        background: url(photo-1554473675-d0904f3cbf38.jfif);
+        background-position: center;
+        background-size: cover;
+    }
+    .campus-hed{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        position: relative;
+        top: 100px;
+        text-transform: uppercase;
+        font-size: 25px;
+        margin: 0px 7px;
+    }
+    .campus-pera{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        top: 150px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px 35px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px 0px rgb(0, 0, 0);
+    }
+    .visit-btn{
+        left: 23%;
+        top: 430px;
+        padding: 15px 40px;
+        font-size: 20px;
+        color: white;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+    .visit-btn:hover{
+        background-color: rgb(253, 9, 9);
+        color: rgb(0, 0, 0);
+    }
+    .offer{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .offer h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .offer p{
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .offer-card{
+        margin: 40px auto;
+        width: 80% ;
+        height: auto;
+        text-align: center;
+        display: grid;
+        gap: 2rem;
+    }
+    .intermediate{
+        display: inline-block;
+        background-color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .degree{
+        display: inline-block;
+        background-color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .Post-Graduation{
+        display: inline-block;
+        background-color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .global-campus{
+        margin-top: 30px;
+        display: grid;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .global-campus1 img{
+        width: 250px;
+        height: 350px;
+    }
+    .global-campus2 img{
+        width: 250px;
+        height: 350px;
+    }
+    .global-campus3 img{
+        width: 250px;
+        height: 350px;
+    }
+    .london{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .london .london-in{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -70px;
+        color: rgb(0, 0, 0);
+        /* display:none; */
+    }
+    .global-campus1 img:hover{
+        width: 290px;
+        height:380px;
+        margin-top: -25px;
+        margin-bottom: 62px;
+    }
+    .global-campus2 img:hover{
+        width: 290px;
+        height:380px;
+        margin-top: -25px;
+        margin-bottom: 62px;
+    }
+    .global-campus3 img:hover{
+        width: 290px;
+        height:380px;
+        margin-top: -25px;
+        margin-bottom: 62px;
+    }
+    .facilitis-img{
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .facilitis-img1 img{
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .facilitis-img1 p{ 
+        margin-left: 10%;
+    }
+    .facilitis-heading{
+        margin: 5px 0px 10px 10%;
+    }
+    .student-say{
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+        margin: 60px 0px 120px 0px;
+    }
+    .card-12{
+        width: 85%;
+        margin: 0px auto;
+    }
+    .img-eva{
+        top: 25px;
+        left: 5px;
+    }
+    .card-12 p{
+        width: 70%;
+        position: relative;
+        top: -40px;
+        left: 80px;
+        font-weight: bold;
+    }
+    .card-12 h1{
+        width: 70%;
+        position: relative;
+        top: -20px;
+        left: 80px;
+    }
+    .font-icon{
+        margin-left: 80px;
+        margin-top: -2px;
+    }
+    .enrol-section{
+        background: url(./large.jpg);
+        object-fit: cover;
+        object-position: center;
+        width: 95%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .enrol-section h1{
+        font-size: 18px;
+        margin: 0px 5px;
+    }
+    .enrol-section button{
+        top: 70px;
+        left: 30%;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .enrol-section button:hover{
+        color: black;
+        background-color: red;
+    }
+    hr{
+        margin: 30px 0px 20px 0px;
+    }
+    footer{
+        position: relative;
+        width:100%;
+        height: 180px;
+        background-color: rgb(216, 216, 216);
+        gap: 1rem;
+    }
+    .footer-head h3{
+        top: 10px;
+        left: 10px;
+        text-decoration: underline;
+    }
+    .footer-head ul{
+        list-style-type:disc;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    .fa-at{
+        top: 15px;
+        right: 140px;
+        color: black;
+    }
+    .contact-mit p{
+        top: 10px;
+        right:50px;
+    }
+    .fa-earth-europe{
+        top: 50px;
+        right: 140px;
+        color: black;
+    }
+    .pera{
+        top: 45px;
+        right: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .fa-phone{
+        top: 85px;
+        right: 140px;
+        color: black;
+    }
+    .pera-1{
+        top: 80px;
+        right: 41px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .fa-facebook{
+        top: 125px;
+        right: 260px;
+        color: #3b5998;
+    }
+    .fa-instagram{
+        top: 125px;
+        right: 220px;
+        color: #dd2a7b;
+    }
+    .fa-twitter{
+        top: 125px;
+        right: 180px;
+        color: #00acee;
+    }
+    .fa-linkedin{
+        top: 125px;
+        right: 140px;
+        color: #0e76a8;
+    }
+    .fa-whatsapp{
+        top: 125px;
+        right: 100px;
+        color: #25d366;
+    }
+    .footer-icon a i{
+        transition: all.3s;
+    }
+    .footer-icon a i:hover{
+        transform: scale(1.5);
+    }
+}
+/*small devices (landscape phones, 576px and up)*/
+@media(min-width:576px) and(max-width:767.98px){
+    
+}
+/* medium devices ( tablates,768px and up)*/
+@media(min-width:768px) and(max-width: 991.98px){
+}
+/*  large devices ( desktop ,992 and up)*/
+@media(min-width:992px) and(max-width: 1199.98px){
+}
+/* X-large devices (large desktops, 1200px and up */
+@media(min-width:1200px) and(max-width: 1399.98)
+
+/* XX-large devices (large desktops, 1400px and up */
+@media(min-width:1400px) and (max-width:){   
+}

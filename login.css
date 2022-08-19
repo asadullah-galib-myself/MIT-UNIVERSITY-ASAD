@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #ecf0f3;
+   color: #555;
+}
+.buttons:hover{
+    background-color: rgb(17, 115, 17);
+}
+.buttons:active{
+    background-color: #000000;
+    color: white;
+}
+.login-form{
+    width: 300px;
+    height: 500px;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1, 
+                -10px -10px 15px white;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background: url(./cap.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 20px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow:  10px 10px 15px #9fa3a7, 
+    -10px -10px 15px rgb(255, 255, 255);
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    margin-top: 18px;
+}
+.sub-title{
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sub-title input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 17px 35px;
+}
+.name,.password{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 10px 25px #b3b7ba, 
+    inset -10px -10px 15px rgb(237, 231, 231); ;
+}
+.buttons{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 37px;
+    margin-top: 15px;
+    width: 75%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #68e770;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px #cbced1,
+    -3px -3px 4px white;
+    color: rgb(0, 0, 0);
+    transition: .2s linear;
+}
+.link{
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
